@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="DevExpress.CodeRush.Foundation.CodePlaces.Options.FavoritesListContainer">
+  <Options Language="Neutral">
+    <Groups>
+      <Item Id="{a4e8b381-3b7c-40b5-9119-21c66af9b792}">
+        <GroupName>ToLookUp</GroupName>
+        <IsExpanded>True</IsExpanded>
+        <Items>
+          <Item Id="{d9efb4b0-0146-46a5-9c52-54a7f6a22bd4}">
+            <LogicalPath>&lt;global namespace&gt;\ExtendedXmlSerializer\ExtendedXmlSerializer.ContentModel\ExtendedXmlSerializer.ContentModel.Members\ExtendedXmlSerializer.ContentModel.Members.MemberSerializers\ExtendedXmlSerializer.ContentModel.Members.IMemberSerializer ExtendedXmlSerializer.ContentModel.Members.MemberSerializers.Content(ExtendedXmlSerializer.ContentModel.Members.IMember, ExtendedXmlSerializer.ContentModel.Members.IMemberAccess)</LogicalPath>
+            <FilePath>E:\Code Bis\ExtendedXmlSerializerHome\src\ExtendedXmlSerializer\ContentModel\Members\MemberSerializers.cs</FilePath>
+          </Item>
+        </Items>
+      </Item>
+      <Item Id="{40da8eb7-902d-48bf-8d02-c92b1ca9ccf3}">
+        <GroupName>ToRewrite</GroupName>
+        <Items>
+          <Item Id="{dcd37f25-effc-4410-b613-9d6aa21155b2}">
+            <LogicalPath>&lt;global namespace&gt;\ExtendedXmlSerializer\ExtendedXmlSerializer.ExtensionModel\ExtendedXmlSerializer.ExtensionModel.Xml\ExtendedXmlSerializer.ExtensionModel.Xml.FormatReaders\ExtendedXmlSerializer.ContentModel.Format.IFormatReader ExtendedXmlSerializer.ExtensionModel.Xml.FormatReaders.Get(System.Xml.XmlReader)</LogicalPath>
+            <FilePath>E:\Code Bis\ExtendedXmlSerializerHome\src\ExtendedXmlSerializer\ExtensionModel\Xml\FormatReaders.cs</FilePath>
+          </Item>
+          <Item Id="{076acaa7-6f37-4aaf-b26b-d98b98151c79}">
+            <LogicalPath>&lt;global namespace&gt;\ExtendedXmlSerializer\ExtendedXmlSerializer.ExtensionModel\ExtendedXmlSerializer.ExtensionModel.Content\ExtendedXmlSerializer.ExtensionModel.Content.Members\ExtendedXmlSerializer.ExtensionModel.Content.Members.MemberModelExtension\ExtendedXmlSerializer.ExtensionModel.IServiceRepository ExtendedXmlSerializer.ExtensionModel.Content.Members.MemberModelExtension.Get(ExtendedXmlSerializer.ExtensionModel.IServiceRepository)</LogicalPath>
+            <FilePath>E:\Code Bis\ExtendedXmlSerializerHome\src\ExtendedXmlSerializer\ExtensionModel\Content\Members\MemberModelExtension.cs</FilePath>
+          </Item>
+        </Items>
+      </Item>
+    </Groups>
+  </Options>
+</Root>
