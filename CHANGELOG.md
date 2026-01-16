@@ -1,3 +1,32 @@
+# [ExtendedXmlSerializer v3.9.6](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.9.6)
+> 07/08/2025 19:21:18 UTC
+##### ``v3.9.6``
+## What&#39;s Changed
+* Adjusted custom serializers to have specific type selector by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/658
+
+
+**Full Changelog**: https://github.com/ExtendedXmlSerializer/home/compare/v3.9.5...v3.9.6
+# [ExtendedXmlSerializer v3.9.5](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.9.5)
+> 06/23/2025 09:40:28 UTC
+##### ``v3.9.5``
+## What&#39;s Changed
+* [Automated] Generated CHANGELOG.md by @github-actions in https://github.com/ExtendedXmlSerializer/home/pull/653
+* Fixed an issue where strings would be handled as collection of chars by @ms0815user in https://github.com/ExtendedXmlSerializer/home/pull/654
+
+## New Contributors
+* @ms0815user made their first contribution in https://github.com/ExtendedXmlSerializer/home/pull/654
+
+**Full Changelog**: https://github.com/ExtendedXmlSerializer/home/compare/v3.9.4...v3.9.5
+# [ExtendedXmlSerializer v3.9.4](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.9.4)
+> 03/26/2025 20:46:34 UTC
+##### ``v3.9.4``
+## What&#39;s Changed
+* [Automated] Generated CHANGELOG.md by @github-actions in https://github.com/ExtendedXmlSerializer/home/pull/639
+* Update deployment keys #648 by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/649
+* Account for multiple generics of the same name in same namespace by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/647
+
+
+**Full Changelog**: https://github.com/ExtendedXmlSerializer/home/compare/v3.8.0...v3.9.4
 # [ExtendedXmlSerializer v3.8.0](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.8.0)
 > 10/24/2024 07:40:55 UTC
 ##### ``v3.8.0``
@@ -229,27 +258,5 @@ https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.7.2
 ##### ``v3.3.0``
 ### ✨ New Features &#128640; 
 - Introduced type-based serialization interception. #452 @Mike-E-angelo 
-
-# [ExtendedXmlSerializer v3.2.7](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.2.7)
-> 09/15/2020 13:28:08 UTC
-##### ``v3.2.7``
-### &#128027; Bug Fixes &#128295; 
-- Accounted for empty CDATA elements. #444 @Mike-E-angelo 
-- Accounted for successive CDATA blocks. #448 @Mike-E-angelo 
-
-# [ExtendedXmlSerializer v3.2.6](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.2.6)
-> 09/01/2020 08:58:59 UTC
-##### ``v3.2.6``
-### &#128027; Bug Fixes &#128295; 
-- Allowed `null` Namespace for Framework Types #430 @oliver-chime 
-- Allowed `null`/Empty Namespaces for Custom/Non-system Assemblies #432 @Mike-E-angelo 
-- Removed Caching from Reference Resolution #437 @Mike-E-angelo 
-
-# [ExtendedXmlSerializer v3.2.5](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.2.5)
-> 08/18/2020 07:24:58 UTC
-##### ``v3.2.5``
-### &#128027; Bug Fixes &#128295; 
-- Accounted for rare state when namespace prefix is `null`. #424 @Mike-E-angelo 
-- Improved member resolution for parameterized content #428 @Mike-E-angelo 
 
 
