@@ -102,7 +102,7 @@ namespace ExtendedXmlSerializer.ExtensionModel.Xml
 
 		public void Dispose()
 		{
-            _reader.Dispose();
+			_reader.Dispose();
 			_context.Dispose();
 		}
 

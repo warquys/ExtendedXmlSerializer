@@ -81,7 +81,7 @@ namespace ExtendedXmlSerializer.ExtensionModel.References
             bool IRegressableReader.IsRegressable => _reader is IRegressableReader regressable 
 												  && regressable.IsRegressable;
 
-            public IIdentity Get(string name, string identifier) => _reader.Get(name, identifier);
+			public IIdentity Get(string name, string identifier) => _reader.Get(name, identifier);
 
 			public MemberInfo Get(string parameter) => _reader.Get(parameter);
 

@@ -1,16 +1,14 @@
-using System.ComponentModel;
 using ExtendedXmlSerializer.ContentModel.Content;
 using ExtendedXmlSerializer.ContentModel.Conversion;
 using ExtendedXmlSerializer.ContentModel.Identification;
 using ExtendedXmlSerializer.ContentModel.Properties;
 using ExtendedXmlSerializer.ContentModel.Reflection;
 using ExtendedXmlSerializer.Core.Sources;
-using ExtendedXmlSerializer.ExtensionModel;
 using ExtendedXmlSerializer.ReflectionModel;
 
 namespace ExtendedXmlSerializer.ContentModel.Members
 {
-	class MemberSerializers : IMemberSerializers
+	sealed class MemberSerializers : IMemberSerializers
 	{
 		readonly IMemberAccessors         _accessors;
 		readonly IAttributeSpecifications _runtime;
@@ -73,5 +71,5 @@ namespace ExtendedXmlSerializer.ContentModel.Members
 			var result = new MemberSerializer(profile, access, body, writer);
 			return result;
 		}
-    }
+	}
 }

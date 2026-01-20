@@ -27,7 +27,7 @@ namespace ExtendedXmlSerializer.ContentModel.Content
 		readonly IDictionaryPairTypesLocator                                _locator;
 		readonly IEnclosures                                                _enclosures;
 
-        [UsedImplicitly]
+		[UsedImplicitly]
 		public DictionaryEntries(IInnerContentServices contents, Element element, IMembers members,
 		                         IMemberSerializers serializers, IEnclosures enclosures)
 			: this(MemberSerializationBuilder.Default.Get, contents, serializers, members, element.Get(Type), Pairs, enclosures) {}

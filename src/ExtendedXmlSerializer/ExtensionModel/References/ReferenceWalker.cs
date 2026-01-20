@@ -5,7 +5,7 @@ namespace ExtendedXmlSerializer.ExtensionModel.References
 {
 	sealed class ReferenceWalker : IParameterizedSource<object, ReferenceResult>
 	{
-		readonly IReferencesPolicy _policy;
+		readonly IReferencesPolicy                 _policy;
 		readonly ICommand<ProcessReferenceInput>  _process;
 
 		public ReferenceWalker(IReferencesPolicy policy, ICommand<ProcessReferenceInput> process)
